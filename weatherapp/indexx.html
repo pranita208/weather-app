@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherly - Weather Data</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top" id="top">
+            <div class="top-content">
+                <h1>Weatherly</h1>
+                <p>Your current location</p>
+                <div class="lon-lat" id="lon-lat">
+                    <h4>Lat: <span id="latitude">Loading...</span></h4>
+                    <h4>Long: <span id="longitude">Loading...</span></h4>
+                </div>
+            </div>
+            <div class="maps" id="maps">
+                <div class="map-placeholder">Map will be displayed here</div>
+            </div>
+        </div>
+        <div class="bottom" id="bottom">
+            <h2>Your Weather Data</h2>
+            <div class="details">
+                <h5>Location: <span id="location">Loading...</span></h5>
+                <h5>Wind Speed: <span id="wind-speed">Loading...</span></h5>
+                <h5>Humidity: <span id="humidity">Loading...</span></h5>
+                <h5>Time Zone: <span id="time-zone">Loading...</span></h5>
+                <h5>Pressure: <span id="pressure">Loading...</span></h5>
+                <h5>Wind Direction: <span id="wind-direction">Loading...</span></h5>
+                <h5>UV Index: <span id="uv-index">Loading...</span></h5>
+                <h5>Feels Like: <span id="feels-like">Loading...</span></h5>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
